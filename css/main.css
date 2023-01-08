@@ -150,6 +150,12 @@ body {
         font-size: 14px;
         line-height: 20px;
     }
+
+    .null-div {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 

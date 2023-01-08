@@ -23,7 +23,8 @@ function render(array, node) {
         elRow.appendChild(elCard);
 
         let elDiv = document.createElement('div');
-        elCard.appendChild(elDiv)
+        elDiv.setAttribute('class', 'null-div')
+        elCard.appendChild(elDiv);
 
         let elCardLink = document.createElement('a');
         elCardLink.setAttribute('href', './about.html');
